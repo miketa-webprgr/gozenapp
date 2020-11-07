@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Set menu:</strong>
+  <%= @relationship.set_menu_id %>
+</p>
+
+<p>
+  <strong>Food:</strong>
+  <%= @relationship.food_id %>
+</p>
+
+<%= link_to 'Edit', edit_relationship_path(@relationship) %> |
+<%= link_to 'Back', relationships_path %>
