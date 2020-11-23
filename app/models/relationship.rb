@@ -1,4 +1,4 @@
 class Relationship < ApplicationRecord
-  belongs_to :set_menu
-  belongs_to :food
+  belongs_to :food, class_name: 'Item'
+  belongs_to :set_menu, class_name: 'Item'
 end
